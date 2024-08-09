@@ -1,0 +1,45 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #79ece6, #ef6f97); 
+  }
+  
+  /* Container for password generator */
+  #generator-container {
+    text-align: center;
+    background-color: #fff6a5cb; /* White background for the container */
+    border: 2px solid #c7a0a0; /* Light gray border */
+  }
+  
+  /* Password display styling */
+  #password {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #0a0a0a; /* Darker text color for readability */
+    border: 1px solid #ddd; /* Light border */
+  }
+  
+  /* Button styling */
+  button {
+    background-color: #007bff; /* Primary button color */
+    border: none;
+    color: white;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  
